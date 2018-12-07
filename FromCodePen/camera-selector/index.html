@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Camera Selector</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+<div class='container'>
+
+	<input type="text" id="tips" name="tips" placeholder="选择摄像头" onfocus="showMenu()"/>
+	<div class="second-container" style="display:none">
+		<div class="lineOne">
+			<span  style="font-size:small;font-weight:bold">请选择摄像头</span>
+			<span onclick="cleanAll()" style="float:right;margin-right:5px;cursor:pointer">清空</span>
+			<span onclick="selectAll()" style="float:right;margin-right:10px;cursor:pointer">全选</span>
+		</div>
+		<input type="text" id="search" name="search" placeholder="请输入筛选条件"/>
+	</div>
+
+</div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
